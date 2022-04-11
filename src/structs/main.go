@@ -3,6 +3,15 @@ package main
 import (
 	"fmt"
 )
+//Encapsulamento em Go se refere a visibilidade ou não de um pacote, como também à visibilidade de funções/variáveis dentro daquele pacote
+//Para tornar acessar um pacote, deve-se importá-lo
+/*
+Para deixar uma variável pública, coloca-se a primeira letra da definição dela como maiúscula, exemplo:
+type Account struct {
+    UserID      int    // exported
+    accessToken string // unexported
+}
+*/
 
 type rect struct {
 	height int
